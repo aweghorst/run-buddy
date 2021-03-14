@@ -5,10 +5,12 @@
 }
 
 body {
+  /* more on this crazy alphanumerical value in a minute! */
   color: #39a6b2;
   font-family: Helvetica, Arial, sans-serif;
 }
 
+/* apply styles to <header> */
 header {
   padding: 20px 35px;
   background-color: #39a6b2;
@@ -118,8 +120,9 @@ section {
   padding: 10px 20px;
   font-size: 16px;
 }
+
 .intro {
-  text-align:center;
+  text-align: center;
 }
 
 .intro p {
@@ -131,8 +134,32 @@ section {
 }
 
 .steps {
-  text-align:center;
-  background: #fce138
+  text-align: center;
+  background: #fce138;
+}
+
+.steps div {
+  margin-bottom: 80px;
+}
+
+.steps img {
+  width: 15%;
+  margin: 10px 0;
+}
+
+.steps h3 {
+  color: #024e76;
+  font-size: 46px;
+  margin-top: 10px;
+}
+
+.steps p {
+  color: #39a6b2;
+  font-size: 23px;
+}
+
+.steps span {
+  font-size: 38px;
 }
 
 .section-title {
@@ -150,28 +177,4 @@ section {
 
 .secondary-border {
   border-color: #39a6b2;
-}
-
-.steps div{
-  margin-bottom: 80px;
-}
-
-.steps img{
-  width:15%;
-  margin:10px 0;
-}
-
-.steps h3{
-  color: #024e76;
-  font-size: 46px;
-  margin-top: 10px;
-}
-
-.steps p{
-  color: #39a6b2;
-  font-size: 23px;
-}
-
-.steps span{
-  font-size:38px
 }
