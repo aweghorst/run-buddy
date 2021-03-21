@@ -37,10 +37,10 @@ header nav {
 }
 
 header nav ul {
-  display:flex;
+  display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
-  align-items:center;
+  align-items: center;
   list-style: none;
 }
 
@@ -48,7 +48,6 @@ header nav ul li a {
   margin: 0 30px;
   font-weight: lighter;
   font-size: 1.55vw;
-
 }
 
 /* HEADER / NAVBAR STYLES END */
@@ -91,9 +90,24 @@ section {
   background-image: url('../images/hero-bg.jpg');
   background-size: cover;
   background-position: center;
-  display:flex;
+  display: flex;
   justify-content: center;
-  flex-wrap:wrap;
+  flex-wrap: wrap;
+}
+
+.hero-cta {
+  width: 35%;
+  text-align: right;
+  margin: 3.5%;
+  color: #fff;
+  font-size: 18px;
+  line-height: 1.3;
+}
+
+.hero-cta h2 {
+  font-style: italic;
+  font-size: 55px;
+  color: #fce138;
 }
 
 .hero-form {
@@ -134,21 +148,6 @@ section {
   padding: 10px 20px;
   font-size: 16px;
 } 
-
-.hero-cta {
-  width: 35%;
-  text-align: right;
-  margin: 3.5%;
-  color: #fff;
-  font-size: 18px;
-  line-height: 1.3;
-}
-
-.hero-cta h2 {
-  font-style: italic;
-  font-size: 55px;
-  color: #fce138;
-}
 /* HERO STYLES END */
 
 
@@ -190,27 +189,6 @@ section {
   background: #fce138;
 }
 
-.step h3 {
-  color: #024e76;
-  font-size: 46px;
-  flex: 1 30%;
-}
-
-.step-info {
-  flex: 2 70%;
-}
-
-.step-text p {
-  color: #39a6b2;
-  font-size: 18px;
-}
-
-.step-text h4 {
-  font-size: 26px;
-  line-height:1.5;
-  color: #024e76;
-}
-
 .step {
   margin: 50px auto;
   padding-bottom: 50px;
@@ -221,6 +199,44 @@ section {
   align-items: center;
   justify-content: space-between;
 }
+
+.step h3 {
+  color: #024e76;
+  font-size: 46px;
+  flex: 1 30%;
+}
+
+.step-info {
+  flex: 2 70%;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.step-img {
+  flex: 1 12%;
+  margin-right: 20px;
+}
+
+.step-img img {
+  max-width: 100%;
+}
+
+.step-text {
+  flex: 12;
+}
+
+.step-text p {
+  color: #39a6b2;
+  font-size: 18px;
+}
+
+.step-text h4 {
+  font-size: 26px;
+  line-height: 1.5;
+  color: #024e76;
+}
+
 /* WHAT YOU DO STYLES END */
 
 /* MEET THE TRAINERS START */
@@ -236,7 +252,7 @@ section {
   margin: 20px;
   background: #024e76;
   color: #fce138;
-  flex: 1
+  flex: 1;
 }
 
 .trainer img {
@@ -272,6 +288,17 @@ section {
   color: #fce138;
 }
 
+.contact-info {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.contact-info > * {
+  flex: 1;
+  margin: 15px;
+}
+
 .contact-info iframe {
   height: 400px;
 }
@@ -292,23 +319,8 @@ section {
   font-style: normal;
 }
 
-.contact-info a {
-  color: #fce138;
-}
-
-.contact-info {
-  display:flex;
-  justify-content: space-between;
-  flex-wrap:wrap;
-}
-
-.contact-info > * {
-  flex: 1;
-  margin: 15px;
-}
-
 .contact-form input, .contact-form textarea {
-  border:  1px solid #024e76;
+  border: 1px solid #024e76;
   display: block;
   padding: 7px 15px;
   font-size: 16px;
@@ -327,6 +339,12 @@ section {
   padding: 15px 0;
   font-size: 16px;
 }
+
+.contact-info a {
+  color: #fce138;
+}
+
+
 /* REACH OUT STYLES END */
 
 /* UTILITIES */
@@ -338,7 +356,6 @@ section {
   text-align: right;
 }
 
-/* FLEX-ROWS */
-.flex-rows {
+.flex-row {
   display: flex;
 }
