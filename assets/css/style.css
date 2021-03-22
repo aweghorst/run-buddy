@@ -58,10 +58,10 @@ header nav ul li a {
 footer {
   background: #fce138;
   padding: 40px 35px;
-  width: 100%;
-  display:flex;
+  display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
+  width: 100%;
 }
 
 footer h2 {
@@ -251,9 +251,9 @@ section {
 
 .trainer {
   margin: 20px;
+  flex: 1;
   background: #024e76;
   color: #fce138;
-  flex: 1;
 }
 
 .trainer img {
@@ -363,14 +363,16 @@ section {
 
 /* MEDIA QUERY FOR SMALLER DESKTOP SCREENS AND SMALLER */
 @media screen and (max-width: 980px) {
-  header{
+  header {
     padding-bottom: 0;
     justify-content: center;
   }
+
   header h1 {
     width: 100%;
     text-align: center;
   }
+
   header nav ul {
     margin-top: 20px;
     width: 100%;
@@ -380,7 +382,7 @@ section {
   header nav ul li a {
     font-size: 20px;
   }
-  
+
   footer h2, footer div {
     text-align: center;
     width: 100%;
@@ -389,7 +391,7 @@ section {
   .hero-cta, .hero-form {
     width: 100%;
   }
-
+  
   .hero-cta {
     text-align: center;
   }
@@ -397,12 +399,12 @@ section {
   .section-title {
     width: 80%;
   }
-
+  
   .trainer {
     flex: 0 70%;
   }
-
-  .contact-info iframe {
+  
+  .contact-info iframe{
     flex: 1 100%;
   }
 }
@@ -432,7 +434,7 @@ section {
   }
 
   .step-text {
-    flex: 100%;
+    flex: 100%;  
   }
 }
 
